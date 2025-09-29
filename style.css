@@ -1,0 +1,172 @@
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+  }
+  
+  header {
+    background-color: #0a33c7;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #FF4081;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+
+ .title {
+    color:aliceblue;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 2px 2px 0, rgb(0, 0, 0) -2px -2px 0, rgb(0, 0, 0) -2px 2px 0, rgb(0, 0, 0) 2px -2px 0;
+  }
+  
+  h2 {
+    color: #FF4081;
+    border-bottom: 2px solid #FF4081;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  
+h1 {
+  color: white;
+  text-align: center;
+}
+
+  p {
+    line-height: 1.6;
+    color: #ffffff;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  header h1 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 20px;
+  }
+
+  #net {
+    background-color: #4b0081;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  #net ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #net li {
+    margin-bottom: 10px;
+  }
+  
+  #net li strong, #stepen_i_koren strong {
+    color: #FF4081;
+  }
+  
+  #it {
+    background-color: #002184;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  #it h2, #sistema_koordinat h2 {
+    color: #50b6ff;
+    border-bottom: 2px solid #50b6ff;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  
+  #it p {
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  #it ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #it li {
+    margin-bottom: 10px;
+  }
+  
+  #it strong, #sistema_koordinat strong {
+    color: #50b6ff;
+  }
+
+  #it h3, #sistema_koordinat h3 {
+    color: #50b6ff;
+  }
+  
+  .bl:hover {
+    color: #50b6ff;
+  }
+
+  #scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #8f38db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  #scroll-to-top {
+    display: block;
+    transition: color 0.3s ease;
+  }
+
+  #scroll-to-top:hover {
+    color: #FF4081;
+    
+  }
+
